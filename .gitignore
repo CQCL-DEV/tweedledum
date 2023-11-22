@@ -34,3 +34,6 @@ wheels/
 
 # might want to remove this later
 MANIFEST
+
+# pyenv
+.python-version
