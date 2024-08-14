@@ -10,7 +10,7 @@ function repair_wheel {
     fi
 }
 
-PYBIN="/opt/python/cp311-cp311/bin"
+PYBIN="/opt/python/cp310-cp310/bin"
 "${PYBIN}/pip" install -r /io/requirements-dev.txt
 "${PYBIN}/pip" wheel /io/ --no-deps -w wheelhouse/
 
